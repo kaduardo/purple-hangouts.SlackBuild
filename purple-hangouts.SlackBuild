@@ -73,14 +73,18 @@ fi
 # and (re)create the packaging directory
 rm -rf $PKG 
 mkdir -p $TMP $PKG
-rm -rf $TMP/$PRGNAM-$VERSION
+#rm -rf $TMP/$PRGNAM-$VERSION
+rm -rf $TMP/$PRGNAM
 
 # Change to the TMP directory
 cd $TMP || exit 1
  
 # Extract the application source in TMP
 # Note: if your application comes as a tar.bz2, you need tar -jxvf
-tar -Jxvf $CWD/$PRGNAM.tar.xz || exit 1
+#tar -Jxvf $CWD/$PRGNAM.tar.xz || exit 1
+
+# Command for cloning the latest repository
+hg clone https://bitbucket.org/EionRobb/purple-hangouts || exit 1
 
 # Change to the application source directory
 cd $PRGNAM || exit 1
