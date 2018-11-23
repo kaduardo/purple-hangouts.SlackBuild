@@ -2,14 +2,14 @@
 
 (Hangouts Plugin for libpurple)
 
-** A simple SlackBuild script for packaging purple-hangouts for slackware 14.2**
+**A simple SlackBuild script for packaging purple-hangouts for slackware 14.2**
 
 ## Dependencies
 
 This plugin requires the following packages (both can be found on http://slackbuilds.org):
 
 * json-glib
-* protobuf-c"
+* protobuf-c
 
 ## Instructions
 
