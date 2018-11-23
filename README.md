@@ -4,6 +4,8 @@
 
 **A simple SlackBuild script for packaging purple-hangouts for slackware 14.2**
 
+The script clones the latest repository and builds everything from there.
+
 ## Dependencies
 
 This plugin requires the following packages (both can be found on http://slackbuilds.org):
@@ -13,11 +15,7 @@ This plugin requires the following packages (both can be found on http://slackbu
 
 ## Instructions
 
-1. Download or clone the purple-hangouts source file from https://bitbucket.org/EionRobb/purple-hangouts/
-
-2. Edit the SlackBuild file to match the filename accordingly.
-
-3. Run as root
+1. Run as root
 > purple-hangouts.SlackBuild 
 
 
